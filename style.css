@@ -1,0 +1,26 @@
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 70%;
+    margin: auto;
+}
+#img-div{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#img-div > img{
+    object-fit: cover;
+}
+
+#image{
+    height: 400px;
+}
+
+#tribute-info{
+    width: 100%;
+}
